@@ -40,3 +40,59 @@
 [2024-05-25 14:45:08.407]	   "tmux-resurrect" clean success
 [2024-05-25 14:45:08.421]	 Done.
 
+[2024-05-26 01:43:53.223]	 List of discovered tpm plugins: manager plugin. tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-05-26 01:43:53.232]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/install_plugins
+[2024-05-26 01:43:53.253]	 Installing "manager"
+[2024-05-26 01:43:53.253]	 Installing "plugin."
+[2024-05-26 01:43:53.254]	 Installing "tmux-resurrect"
+[2024-05-26 01:43:53.254]	 Installing "tmux-continuum"
+[2024-05-26 01:43:55.314]	   "plugin." download fail
+[2024-05-26 01:43:55.333]	   "manager" download fail
+[2024-05-26 01:43:58.430]	   "tmux-continuum" download success
+[2024-05-26 01:44:05.169]	   "tmux-resurrect" download success
+[2024-05-26 01:44:05.179]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/update_plugins all
+[2024-05-26 01:44:05.190]	 Updating all plugins!
+[2024-05-26 01:44:05.190]	 
+[2024-05-26 01:44:07.316]	   "tmux-continuum" update success
+[2024-05-26 01:44:07.317]	     | Already up to date.
+[2024-05-26 01:44:07.317]	   "tmux-resurrect" update success
+[2024-05-26 01:44:07.319]	     | Already up to date.
+[2024-05-26 01:44:07.328]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2024-05-26 01:44:07.363]	 Done.
+
+[2024-05-26 07:37:18.258]	 List of discovered tpm plugins: manager plugin. tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-05-26 07:37:18.269]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/install_plugins
+[2024-05-26 07:37:18.295]	 Installing "manager"
+[2024-05-26 07:37:18.295]	 Installing "plugin."
+[2024-05-26 07:37:18.301]	 Already installed "tmux-continuum"
+[2024-05-26 07:37:18.301]	 Already installed "tmux-resurrect"
+[2024-05-26 07:37:18.572]	   "manager" download fail
+[2024-05-26 07:37:18.572]	   "plugin." download fail
+[2024-05-26 07:37:18.584]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/update_plugins all
+[2024-05-26 07:37:18.599]	 Updating all plugins!
+[2024-05-26 07:37:18.599]	 
+[2024-05-26 07:37:19.191]	   "tmux-continuum" update success
+[2024-05-26 07:37:19.192]	     | Already up to date.
+[2024-05-26 07:37:19.195]	   "tmux-resurrect" update success
+[2024-05-26 07:37:19.196]	     | Already up to date.
+[2024-05-26 07:37:19.208]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2024-05-26 07:37:19.240]	 Done.
+
+[2024-05-26 09:04:14.200]	 List of discovered tpm plugins: manager plugin. tmux-plugins/tmux-resurrect tmux-plugins/tmux-continuum
+[2024-05-26 09:04:14.214]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/install_plugins
+[2024-05-26 09:04:14.254]	 Installing "manager"
+[2024-05-26 09:04:14.257]	 Installing "plugin."
+[2024-05-26 09:04:14.260]	 Already installed "tmux-continuum"
+[2024-05-26 09:04:14.260]	 Already installed "tmux-resurrect"
+[2024-05-26 09:04:14.698]	   "manager" download fail
+[2024-05-26 09:04:14.698]	   "plugin." download fail
+[2024-05-26 09:04:14.720]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/update_plugins all
+[2024-05-26 09:04:14.741]	 Updating all plugins!
+[2024-05-26 09:04:14.741]	 
+[2024-05-26 09:04:15.472]	   "tmux-continuum" update success
+[2024-05-26 09:04:15.474]	     | Already up to date.
+[2024-05-26 09:04:15.512]	   "tmux-resurrect" update success
+[2024-05-26 09:04:15.514]	     | Already up to date.
+[2024-05-26 09:04:15.532]	 Invoking /home/skogix/.config/tmux/plugins//tpm/bin/clean_plugins all
+[2024-05-26 09:04:15.591]	 Done.
+

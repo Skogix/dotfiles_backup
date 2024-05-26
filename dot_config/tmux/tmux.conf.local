@@ -30,6 +30,7 @@ tmux_conf_new_session_prompt=false
 tmux_conf_new_session_retain_current_path=false
 
 
+
 # -- windows & pane creation ---------------------------------------------------
 
 # new window retains current path, possible values are:

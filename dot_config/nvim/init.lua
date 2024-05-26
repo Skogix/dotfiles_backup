@@ -1,46 +1,22 @@
--- Rafael Bodill's Neovim entry-point
--- https://github.com/rafi/vim-config
+-- This file simply bootstraps the installation of Lazy.nvim and then calls other files for execution
+-- This file doesn't necessarily need to be touched, BE CAUTIOUS editing this file and proceed at your own risk.
+local lazypath = vim.env.LAZY or vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
+if not (vim.env.LAZY or (vim.uv or vim.loop).fs_stat(lazypath)) then
+  -- stylua: ignore
+  vim.fn.system({ "git", "clone", "--filter=blob:none", "https://github.com/folke/lazy.nvim.git", "--branch=stable", lazypath })
+end
+vim.opt.rtp:prepend(lazypath)
 
-local stdconfig = vim.fn.stdpath("config")
-local lazy_override = stdconfig .. "/lua/config/lazy.lua"
-
-vim.uv = vim.uv or vim.loop
-
-if vim.uv.fs_stat(lazy_override) then
-	-- Override RafiVim default config.
-	require("config.lazy")
-else
-	-- Bootstrap lazy.nvim, RafiVim, LazyVim and your plugins.
-	require("rafi.config.lazy")
+-- validate that lazy is available
+if not pcall(require, "lazy") then
+  -- stylua: ignore
+  vim.api.nvim_echo({ { ("Unable to load lazy from: %s\n"):format(lazypath), "ErrorMsg" }, { "Press any key to exit...", "MoreMsg" } }, true, {})
+  vim.fn.getchar()
+  vim.cmd.quit()
 end
 
--- let g:clipboard = {
---             \   'name': 'WslClipboard',
---             \   'copy': {
---             \      '+': 'clip.exe',
---             \      '*': 'clip.exe',
---             \    },
---             \   'paste': {
---             \      '+': 'powershell.exe -c [Console]::Out.Write($(Get-Clipboard -Raw).tostring().replace("`r", ""))',
---             \      '*': 'powershell.exe -c [Console]::Out.Write($(Get-Clipboard -Raw).tostring().replace("`r", ""))',
---             \   },
---             \   'cache_enabled': 0,
---             \ }
--- vim.opt.clipboard = "unnamedplus"
---
---
--- if vim.fn.has("wsl") == 1 then
--- 	vim.g.clipboard = {
--- 		name = "win32yank-wsl",
--- 		copy = {
--- 			["+"] = "win32yank.exe -i --crlf",
--- 			["*"] = "win32yank.exe -i --crlf",
--- 		},
--- 		paste = {
--- 			["+"] = "win32yank.exe -o --lf",
--- 			["*"] = "win32yank.exe -o --lf",
--- 		},
--- 		cache_enabled = 0,
--- 	}
--- end
---
+require "lazy_setup"
+require "polish"
+
+--https://docs.astronvim.com/configuration/customizing_plugins/
+-- fixa så journal läggs på rätt ställe
