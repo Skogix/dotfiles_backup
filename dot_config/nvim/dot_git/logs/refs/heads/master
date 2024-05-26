@@ -1,2 +1,4 @@
-0000000000000000000000000000000000000000 62d803bd77d7be53b4cbdd5107c7b12e14606a2d Emil Skogsund <skogix@gmail.com> 1715698932 +0200	commit (initial): init
-62d803bd77d7be53b4cbdd5107c7b12e14606a2d 1095384644230e27e84ac6a6f6c49148edf26e00 Emil Skogsund <emil.skogsund@gmail.com> 1715699054 +0200	commit: add .gitignore
+0000000000000000000000000000000000000000 efd09650f455544701ec0b00bbcf06cbe3bcb8e7 Emil Skogsund <emil.skogsund@gmail.com> 1716732133 +0200	commit (initial): first commit
+efd09650f455544701ec0b00bbcf06cbe3bcb8e7 efd09650f455544701ec0b00bbcf06cbe3bcb8e7 Emil Skogsund <emil.skogsund@gmail.com> 1716732133 +0200	Branch: renamed refs/heads/main to refs/heads/master
+efd09650f455544701ec0b00bbcf06cbe3bcb8e7 f07f34a47f60bab6a0d09ff7abdcff575e09c4e7 Emil Skogsund <emil.skogsund@gmail.com> 1716732148 +0200	commit: .
+f07f34a47f60bab6a0d09ff7abdcff575e09c4e7 f23c023d3b806297565d995051185e1a79d9df78 Emil Skogsund <emil.skogsund@gmail.com> 1716732238 +0200	commit: .

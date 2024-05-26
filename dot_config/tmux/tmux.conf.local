@@ -494,6 +494,11 @@ tmux_conf_uninstall_plugins_on_reload=true
 # There's probably something similar for gitlab, but I'm not going to get into that right now.
 # Don't forget to run `CTR+b SHIFT+i` or nothing will install!
 
+# bind | split-window -h
+# bind - split-window -v
+# unbind '"'
+# unbind %
+
 # List of Plugins
 set -g @plugin 'tmux-plugins/tpm'		# TMUX plugin manager
 set -g @plugin 'tmux-plugins/tmux-sensible'	# Note: If there is any weirdness, blame this plugin.

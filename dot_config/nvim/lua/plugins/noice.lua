@@ -21,6 +21,7 @@ return {
       if vim.tbl_get(noice_opts, "lsp", "hover", "enabled") ~= false then
         opts.lsp_handlers["textDocument/hover"] = false
       end
+      -- TODO ställ tillbaka
       if vim.tbl_get(noice_opts, "lsp", "signature", "enabled") ~= false then
         opts.lsp_handlers["textDocument/signatureHelp"] = false
       end

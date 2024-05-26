@@ -17,4 +17,5 @@ return {
       },
     },
   },
+  require("gitsigns").setup(),
 }

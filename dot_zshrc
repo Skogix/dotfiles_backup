@@ -120,6 +120,8 @@ alias c="clear"
 alias l="lsd"
 alias ls="lsd"
 alias lsa="lsd -a"
+alias vimrc="cd /home/skogix/.config/nvim;nvim /home/skogix/.config/nvim/init.lua"
+alias zshrc="cd;nvim /home/skogix/.zshrc"
 
 export DISPLAY=172.31.176.1:0
 if command -v zoxide > /dev/null; then
