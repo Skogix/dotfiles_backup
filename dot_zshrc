@@ -126,7 +126,7 @@ alias zshrc="cd;nvim /home/skogix/.zshrc"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#663399,standout"
 
 # TODO är just nu bara hårdkodat för wsl, kommer nog sprängas på burken hemma
-export DISPLAY=172.31.176.1:0
+# export DISPLAY=172.31.176.1:0
 if command -v zoxide > /dev/null; then
   eval "$(zoxide init zsh)"
 fi
