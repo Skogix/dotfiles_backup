@@ -374,6 +374,7 @@ exec urxvtc -name bc_scratchpad -e bc -l
 exec --no-startup-id joplin-desktop
 # exec --no-startup-id brave
 exec --no-startup-id i3-msg workspace "$knowledge; exec nohup freemind $CLOUD/knowledge_base/mindmeister.mm &> /dev/null & disown"
+exec --no-startup-id pa-applet
 
 ##########
 # DESIGN #
